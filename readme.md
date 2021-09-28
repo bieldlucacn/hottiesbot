@@ -12,6 +12,7 @@ Esse projeto começou primeiramente no ~~(🦆anal)~~ e eu fui lentamente melhor
  - Só porque a discord.py foi descontinuada não quer dizer que ela ainda não seja um ótimo recurso e um ótimo aprendizado para iniciantes, você vai se familiarizar bastante com a API do Discord e não vai levar logo um baque porque ela é bem simples, moderna e engloba toda a simplicidade que o Python dá.
  - Eu estou disponibilizando esse código fonte não só para um aprendizado meu para também o de quem eu compartilhar esse arquivo. Se você encontrar algum bug, algum erro no código, typo, o que for, sinta-se livre para [abrir uma issue](https://github.com/bieldlucacn/hottiesbot/issues/new) ou propor uma solução abrindo uma PR.
  - Concluindo, eu tentei ao máximo comentar o código e limpar ele (tanto que ainda falta alguns arquivos para eu enviar), porém, para entender melhor o código é necessário uma leve noção em Python, o básico do básico de SQL e um básico conhecimento da própria library. No final desse arquivo, vou colocar alguns links que podem ajudar vocês (e que me ajudaram bastante)
+ - **A maioria** dos emojis personalizados que eu uso nesse bot vem de um server privado meu com os bots, que eu uso justamente para isso. Caso você queira usar eu posso te passar o .png ou .gif dos emojis, é só abrir uma issue pedindo.
 
 ## Links úteis
 ### [Documentação da discord.py](https://discordpy.readthedocs.io/en/stable/api.html)
