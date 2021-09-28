@@ -3,7 +3,7 @@
 # Código fonte do hotties bot
 Esse projeto começou primeiramente no ~~(🦆anal)~~ e eu fui lentamente melhorando o código e o bot no hotties com o passar do tempo
 
-## Avisos importantes:
+## Avisos importantes
  - Esse bot não foi feito para simplesmente rodar fora da caixa assim,
    tem muita coisa nele que é **hard-coded** (como alguns IDs de chats,
    cargos etc.) e ele também não foi feito pensado p/ ser um bot público
@@ -20,3 +20,11 @@ Esse projeto começou primeiramente no ~~(🦆anal)~~ e eu fui lentamente melhor
 **(EM INGLÊS)** Nesse link tem alguns exemplos que vocês podem usar e aprender deles.
 ### [Questões marcadas com "discord.py" no StackOverflow](https://stackoverflow.com/questions/tagged/discord.py)
 **(EM INGLÊS)** O StackOverflow vai acabar sendo seu melhor amigo, sério. Muita coisa você vai aprender pesquisando e como o Python é uma linguagem muito usada, é bem capaz que alguém já vai ter encontrado o mesmo problema que você encontrou, independentemente do que for.
+
+## Agradecimentos
+Algumas coisas desse bot são forks/cópias diretas de outros projetos open-source, então achei legal dedicar essa sessão para o pessoal do qual o trabalho deles me ajudou infinitamente
+
+ - [SamSanai/VoiceMaster-Discord-Bot](https://github.com/SamSanai/VoiceMaster-Discord-Bot)
+É imprescindível o quanto esse bot me ajudou, ele é a base pra voice.py inteira. Sem esse repositório nós não teríamos as VCs privadas no servidor.
+ - CornoBot
+O cornobot (fun.py) eu vi a ideia inicialmente em um repo de um random aqui no Github, eu gostaria de colocar ele aqui para agradecer também mas acho que ele apagou o repositório 😔
