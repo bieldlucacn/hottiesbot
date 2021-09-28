@@ -28,3 +28,10 @@ Algumas coisas desse bot são forks/cópias diretas de outros projetos open-sour
 É imprescindível o quanto esse bot me ajudou, ele é a base pra voice.py inteira. Sem esse repositório nós não teríamos as VCs privadas no servidor.
  - CornoBot
 O cornobot (fun.py) eu vi a ideia inicialmente em um repo de um random aqui no Github, eu gostaria de colocar ele aqui para agradecer também mas acho que ele apagou o repositório 😔
+
+## A fazer
+
+ - [ ] Adicionar as cogs do bot aqui (comentadas)
+ - [ ] Adicionar os exemplos dos bancos de dados
+ - [ ] Adicionar tutoriais de como adicionar uma variável de ambiente 
+ - [ ] Explicar melhor o uso de Cogs e como elas funcionam
