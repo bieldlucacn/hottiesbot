@@ -176,7 +176,7 @@ async def on_message_delete(message):
                         filename = str(attachment.filename)
                         c.execute("INSERT INTO global (id, filename) VALUES (?,?)",
                                   (mid, filename))
-                        deletelog.info(f'Vídeo deletado - [{message.author.name}] [{message.channel.name}] [' + datesp.strftime(
+                        deletelog.info(f'Vídeo deletado - [{message.author.id}] [{message.channel.name}] [' + datesp.strftime(
                             '%d/%m-%H:%M') + f']: Arquivo - =rfile {mid}')
                         await attachment.save(fp="deletes/{}".format(attachment.filename)) #isso salva na sua máquina o arquivo enviado
                         conn.commit()
@@ -186,7 +186,7 @@ async def on_message_delete(message):
                         filename = str(attachment.filename)
                         c.execute("INSERT INTO global (id, filename) VALUES (?,?)",
                                   (mid, filename))
-                        deletelog.info(f'Arquivo deletado - [{message.author.name}] [{message.channel.name}] [' + datesp.strftime(
+                        deletelog.info(f'Arquivo deletado - [{message.author.id}] [{message.channel.name}] [' + datesp.strftime(
                             '%d/%m-%H:%M') + f']: Arquivo - =rimg {mid}')
                         await attachment.save(fp="deletes/{}".format(attachment.filename))
                         conn.commit() #a cada modificação que você fizer no banco de dados, SEMPRE lembre-se de usar conn.commit() para salvar suas modificações
@@ -194,7 +194,7 @@ async def on_message_delete(message):
             except Exception as e:
                 logger.error('Unknown error\nError: {}'.format(e)) #caso dê algum erro
         if not message.attachments: #se não contem um vídeo
-            deletelog.info(f'Mensagem deletada - [{message.author.name}] [{message.channel.name}] [' + datesp.strftime('%d/%m-%H:%M')+ f'] : {message.content}')
+            deletelog.info(f'Mensagem deletada - [{message.author.id}] [{message.channel.name}] [' + datesp.strftime('%d/%m-%H:%M')+ f'] : {message.content}')
 
 
 #
@@ -271,3 +271,5 @@ if __name__ == "__main__":
     cogs() #carrega as cogs
     bot.run(TOKEN, reconnect=True) #inicia o bot
     atexit.register(exit_handler) #registra o código que executa quando eu fecho o bot
+
+#ps: esse bot não odeia a paty#4704

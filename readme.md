@@ -25,9 +25,9 @@ Esse projeto começou primeiramente no ~~(🦆anal)~~ e eu fui lentamente melhor
 ## Agradecimentos
 Algumas coisas desse bot são forks/cópias diretas de outros projetos open-source, então achei legal dedicar essa sessão para o pessoal do qual o trabalho deles me ajudou infinitamente
 
- - [SamSanai/VoiceMaster-Discord-Bot](https://github.com/SamSanai/VoiceMaster-Discord-Bot)
+ - **[SamSanai/VoiceMaster-Discord-Bot](https://github.com/SamSanai/VoiceMaster-Discord-Bot)**
 É imprescindível o quanto esse bot me ajudou, ele é a base pra voice.py inteira. Sem esse repositório nós não teríamos as VCs privadas no servidor.
- - CornoBot
+ - **CornoBot**
 O cornobot (fun.py) eu vi a ideia inicialmente em um repo de um random aqui no Github, eu gostaria de colocar ele aqui para agradecer também mas acho que ele apagou o repositório 😔
 
 ## A fazer
